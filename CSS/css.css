@@ -79,3 +79,51 @@ h3{
     width: 97%;
     margin: 0;
 }
+
+.grid2 {
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+h4{
+    font-family: 'Chewy', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+#logo-milk {
+    width: 35%;
+    margin-left: 30%;
+}
+
+li {
+   font-family: 'Chewy', cursive;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+h5 {
+     font-family: 'Chewy', cursive;
+    font-size: 3.5em;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h6 {
+     font-family: 'Chewy', cursive;
+    font-size: 5em;
+    color: #12B493;
+    text-align: center;
+    margin-top: 0;
+}
+
+.join {
+    background-color: #f6f6f6;
+    margin-top: 0;
+    padding: 50px;
+}
