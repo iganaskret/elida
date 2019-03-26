@@ -127,3 +127,69 @@ h6 {
     margin-top: 0;
     padding: 50px;
 }
+
+/* FOOTER */
+footer {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto';
+
+    /* grid for the footer */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-areas:
+        ". anima logo icons .";
+}
+
+.anima-footer {
+    grid-area: anima;
+}
+
+.anima-logo {
+    width: 160px;
+    padding-top: 35px;
+}
+
+.anima-address {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.email-icon {
+    width: 20px;
+}
+
+.telephone-icon {
+    width: 20px;
+}
+
+.telephone {
+    margin: 0;
+}
+
+.challenge-logo {
+    grid-area: logo;
+    width: 70px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.some-icons {
+    grid-area: icons;
+    padding-top: 60px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.newsletter {
+    grid-area: icons;
+    padding-top: 130px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
