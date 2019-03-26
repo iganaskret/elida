@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Cutive+Mono');
+
+body{
+    font-family: 'Cutive Mono', monospace;
+}
+
+header {
+    background-image: url(../img/bck);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+h1 {
+    font-family: 'Chewy', cursive;
+    color: white;
+    font-size: 3em;
+}
