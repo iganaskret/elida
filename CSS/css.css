@@ -1,18 +1,81 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy|Cutive+Mono');
 
-body{
+body {
     font-family: 'Cutive Mono', monospace;
+    margin: 0;
 }
 
 header {
-    background-image: url(../img/bck);
+    background-image: url(../img/banner1.jpg);
+    height: 750px;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
     font-family: 'Chewy', cursive;
-    color: white;
-    font-size: 3em;
+    color: #ff9b88;
+    font-size: 2.6em;
+    margin: 0;
+    padding-top: 36%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 150px;
+    color: #515151;
+    font-size: 2.6em;
+}
+
+.grid {
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-bottom: 0;
+}
+
+.cowpic {
+    width: 720px;
+}
+
+article{
+    margin: 30px;
+    font-size: 1.2em;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+#about {
+    background-color: #f6f6f6;
+    margin-top: 0;
+}
+
+h3{
+    color: #ff9b88;
+    font-family: 'Chewy', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+
+#anima {
+    font-size: 1.2em;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-bottom: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#gif {
+    width: 97%;
+    margin: 0;
 }
