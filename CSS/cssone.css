@@ -218,4 +218,18 @@ footer {
 }
 button {
     border-radius: 0 40px 40px 0;
+    background-color: #ff9b88;
+    color: white;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 0.8em;
+    border: none;
+    height: 27px;
+      margin-bottom: 5px;
+}
+input {
+    border-radius: 40px 0 0 40px;
+    border: 1p solid black;
+    padding: 5px;
+    box-sizing: border-box;
 }
