@@ -3,15 +3,18 @@
 body {
     font-family: 'Cutive Mono', monospace;
     margin: 0;
+    background-color: #F6F6F1;
 }
 
 header {
-    background-image: url(../img/banner1.jpg);
-    height: 750px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    font-family: 'Chewy', cursive;
+    color: #FFCA4E;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 0;
+    padding-right: 50px;
+    padding-top: 10px;
 }
 
 h1 {
